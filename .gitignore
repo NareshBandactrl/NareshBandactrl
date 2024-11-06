@@ -1,28 +1,21 @@
-# Ignore Terraform state files and configuration
 *.tfstate
 *.tfstate.*
 *.backup
 *.tfvars
 
-# Ignore AWS credentials and configuration
 .aws/
 *.aws/
 
-# Ignore Terraform plan output files
 *.plan
 
-# Ignore lock files
 .terraform.lock.hcl
 
-# Ignore the .terraform directory (which stores the provider plugins)
 .terraform/
 
-# Ignore environment-specific settings
 terraform.tfvars
 
 # Optional: If you use any IDE, you may want to add IDE-specific files like:
 # .idea/
 # .vscode/
 
-# Ignore sensitive logs or configuration files
 *.log
